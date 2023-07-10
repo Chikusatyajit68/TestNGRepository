@@ -1,0 +1,8 @@
+<suite name="functional testing">
+    <test name="nopcommerce testing">
+        <classes>
+            <class name="LoginPageTest"/>
+            <class name="DashboardTest"/>
+        </classes>
+    </test>
+</suite>

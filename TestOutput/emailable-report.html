@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">functional testing</th></tr>
+<tr><td><a href="#t0">nopcommerce testing</a></td><td class="num">15</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">169,282</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">functional testing</th></tr></tbody><tbody id="t0"><tr><th colspan="4">nopcommerce testing &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">LoginPageTest</td><td><a href="#m0">verifyLoginBtnfunctionalityWithsetofcredentials</a></td><td rowspan="3">1676545590244</td><td rowspan="3">826</td></tr><tr class="failedeven"><td><a href="#m1">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr class="failedeven"><td><a href="#m2">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr><th colspan="4">nopcommerce testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">DashboardTest</td><td><a href="#m3">verifyLoginBtnFunctionalitywithValidEmail</a></td><td rowspan="1">1676545603981</td><td rowspan="1">3653</td></tr><tr class="passedeven"><td><a href="#m4">verifySearchBoxFunctionalityWithInvaliddata</a></td><td rowspan="1">1676545613436</td><td rowspan="1">4409</td></tr><tr class="passedeven"><td><a href="#m5">verifySearchBoxFunctionalityWithPartialdata</a></td><td rowspan="1">1676545621617</td><td rowspan="1">5014</td></tr><tr class="passedeven"><td><a href="#m6">verifySearchBoxFunctionalityWithvaliddata</a></td><td rowspan="1">1676545629884</td><td rowspan="1">7671</td></tr><tr class="passedodd"><td rowspan="11">LoginPageTest</td><td><a href="#m7">verifyLoginBtnfunctionalityWithsetofcredentials</a></td><td rowspan="7">1676545528858</td><td rowspan="7">4973</td></tr><tr class="passedodd"><td><a href="#m8">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr class="passedodd"><td><a href="#m9">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr class="passedodd"><td><a href="#m10">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr class="passedodd"><td><a href="#m11">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr class="passedodd"><td><a href="#m12">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr class="passedodd"><td><a href="#m13">verifyLoginBtnfunctionalityWithsetofcredentials</a></td></tr><tr class="passedodd"><td><a href="#m14">verifyinvalidloginErroaMsglabel</a></td><td rowspan="1">1676545496415</td><td rowspan="1">9007</td></tr><tr class="passedodd"><td><a href="#m15">verifyloginBtnCunctionalitywithvalidemail</a></td><td rowspan="1">1676545511557</td><td rowspan="1">13158</td></tr><tr class="passedodd"><td><a href="#m16">verifyloginBtnFunctionalitywithEmailasBlank</a></td><td rowspan="1">1676545482168</td><td rowspan="1">298</td></tr><tr class="passedodd"><td><a href="#m17">verifyloginBtnFunctionalitywithInvalidEmailformat</a></td><td rowspan="1">1676545489841</td><td rowspan="1">1712</td></tr></tbody>
+</table>
+<h2>nopcommerce testing</h2><h3 id="m0">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>xyz</td><td>admin</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;content-header&apos;]&quot;}
+  (Session info: chrome=110.0.5481.97)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [331c4750fc6e756f236c3dfea2836d8d, findElement {using=xpath, value=//*[@class=&apos;content-header&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54114}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54114/devtoo..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 331c4750fc6e756f236c3dfea2836d8d
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at com.nopcommerce.pages.Dashboardpage.getElement(Dashboardpage.java:26)
+	at com.nopcommerce.pages.Dashboardpage.isDashboardvisible(Dashboardpage.java:39)
+	at LoginPageTest.verifyLoginBtnfunctionalityWithsetofcredentials(LoginPageTest.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>null</td><td>null</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:98)
+	at com.nopcommerce.pages.Loginpage.SETTEXTINTEXTBOX(Loginpage.java:31)
+	at com.nopcommerce.pages.Loginpage.setTextinEmailTextbox(Loginpage.java:51)
+	at LoginPageTest.verifyLoginBtnfunctionalityWithsetofcredentials(LoginPageTest.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 24 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yours.com</td><td>admin78888</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@class=&apos;content-header&apos;]&quot;}
+  (Session info: chrome=110.0.5481.97)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.7.2&apos;, revision: &apos;4d4020c3b7&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.15&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [94c7ff69e2e7fb8a8f0a0494a3c4a5f4, findElement {using=xpath, value=//*[@class=&apos;content-header&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 110.0.5481.97, chrome: {chromedriverVersion: 110.0.5481.77 (65ed616c6e8e..., userDataDir: C:\Users\hp\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:54129}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54129/devtoo..., se:cdpVersion: 110.0.5481.97, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 94c7ff69e2e7fb8a8f0a0494a3c4a5f4
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:535)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:351)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:343)
+	at com.nopcommerce.pages.Dashboardpage.getElement(Dashboardpage.java:26)
+	at com.nopcommerce.pages.Dashboardpage.isDashboardvisible(Dashboardpage.java:39)
+	at LoginPageTest.verifyLoginBtnfunctionalityWithsetofcredentials(LoginPageTest.java:116)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">DashboardTest#verifyLoginBtnFunctionalitywithValidEmail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">DashboardTest#verifySearchBoxFunctionalityWithInvaliddata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">DashboardTest#verifySearchBoxFunctionalityWithPartialdata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">DashboardTest#verifySearchBoxFunctionalityWithvaliddata</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">LoginPageTest#verifyLoginBtnfunctionalityWithsetofcredentials</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>admin@yourstore.com</td><td>admin</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">LoginPageTest#verifyinvalidloginErroaMsglabel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">LoginPageTest#verifyloginBtnCunctionalitywithvalidemail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">LoginPageTest#verifyloginBtnFunctionalitywithEmailasBlank</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">LoginPageTest#verifyloginBtnFunctionalitywithInvalidEmailformat</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
